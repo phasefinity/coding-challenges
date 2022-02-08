@@ -35,3 +35,14 @@ interface MinStack<T extends Comparable<T>> {
     boolean isEmpty();
 }
 ````
+
+## DateUtil
+
+Implement the methods in DateUtil:
+
+````java
+interface DateUtil {
+    boolean isWeekend(LocalDate date);
+    LocalDate addBusinessDays(LocalDate from, int businessDays, Set<LocalDate> holidays);
+}
+````
