@@ -1,0 +1,7 @@
+# IntelliJ IDEA
+.idea/*
+
+# Build Ouput
+target
+build
+out
