@@ -13,3 +13,25 @@ Given `[4, 5, 4, 5, 5]`
 `4` occurs 2 times (even)  
 `5` occurs 3 times (odd)  
 -> You should return `5`
+
+## MinStack
+
+Implement the interface for MinStack.
+
+A Stack is a data structure to which you can add elements only to the end of the chain (to the top of the stack). You
+can also only remove the last element (the top element of the stack).
+
+A MinStack behaves like a normal stack but additionally provides a method to always get the minimum element in the
+entire stack.
+
+The interface consists of the following methods:
+
+````java
+interface MinStack<T extends Comparable<T>> {
+    void push(T element); // add element to the top of the stack
+    T pop(); // remove and return the top element from the stack. return null if the stack is empty.
+    T peek(); // return the top element (without removing it). return null if the stack is empty.
+    T min(); // return the minimum element (without removing it). return null if the stack is empty.
+    boolean isEmpty();
+}
+````
