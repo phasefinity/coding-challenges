@@ -46,3 +46,16 @@ interface DateUtil {
     LocalDate addBusinessDays(LocalDate from, int businessDays, Set<LocalDate> holidays);
 }
 ````
+
+## Business Intelligence
+
+Given a data structure of Company, Department and Employee find various insights like favorite food and average age.
+
+````java
+interface BusinessIntelligence {
+    String favoriteFoodForCompany(Set<Employee> employees, String company);
+    String favoriteFoodForDepartment(Set<Employee> employees, String department);
+    double averageAgeForCompany(Set<Employee> employees, String company);
+    double averageAgeForFavoriteFood(Set<Employee> employees, String favoriteFood);
+}
+````
