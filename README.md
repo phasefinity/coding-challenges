@@ -36,6 +36,23 @@ interface MinStack<T extends Comparable<T>> {
 }
 ````
 
+## Morse Code
+
+Morse code requires you to know when a new letter starts and which dashes `_` and dots `.` make up the next letter.
+
+For example the words "River" and "Lever" in morse code have the same sequence of dashes `_` and dots `.`.
+
+* River `._. .. ..._ . ._.`
+* Lever `._.. . ..._ . ._.`
+
+When the spacing is removed the morse code becomes `._......_.._.` and you can no longer distinguish between the two words.
+
+Write a function that finds all possible words from a morse code sequence. You are given a dictionary text file
+`src/main/resources/dictionary.txt` that contains valid words.
+
+In `MorseCode.java` a Map `morseDictionary` is already initialized and contains a mapping from each letter to the
+corresponding morse code sequence.
+
 ## DateUtil
 
 Implement the methods in DateUtil:
