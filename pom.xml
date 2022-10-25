@@ -17,7 +17,7 @@
         <kotlin.compiler.jvmTarget>17</kotlin.compiler.jvmTarget>
 
         <!-- Library Versions -->
-        <version.kotlin>1.7.10</version.kotlin>
+        <version.kotlin>1.7.20</version.kotlin>
 
         <!-- Test Library Versions -->
         <version.junitJupiterEngine>5.8.2</version.junitJupiterEngine>
