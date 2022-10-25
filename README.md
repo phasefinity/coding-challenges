@@ -76,3 +76,9 @@ interface BusinessIntelligence {
     double averageAgeForFavoriteFood(Set<Employee> employees, String favoriteFood);
 }
 ````
+
+## Packages
+
+You are given the source code of an unknown application.
+Your goal is to read and understand the code and briefly explain what it's supposed to do.
+Afterwards you should refactor the current mess into something more extensible and readable.
