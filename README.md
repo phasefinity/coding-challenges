@@ -82,3 +82,14 @@ interface BusinessIntelligence {
 You are given the source code of an unknown application.
 Your goal is to read and understand the code and briefly explain what it's supposed to do.
 Afterwards you should refactor the current mess into something more extensible and readable.
+
+## Unique Letter Words (Kotlin)
+
+Given the list of words, find all sets of 5 5-letter-words using only unique letters. The alphabet has 26 letters, so 5
+5-letter-words will require 25 unique letters, leaving one letter left over.
+
+Example: fjord, gucks, nymph, vibex, waltz (letter 'q' is left over)
+
+````kotlin
+fun findSetsOfFiveWordsWithUniqueLetters(words: List<String>): Set<Set<String>>
+````
