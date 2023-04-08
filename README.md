@@ -45,13 +45,43 @@ For example the words "River" and "Lever" in morse code have the same sequence o
 * River `._. .. ..._ . ._.`
 * Lever `._.. . ..._ . ._.`
 
-When the spacing is removed the morse code becomes `._......_.._.` and you can no longer distinguish between the two words.
+When the spacing is removed the morse code becomes `._......_.._.` and you can no longer distinguish between the two
+words.
 
 Write a function that finds all possible words from a morse code sequence. You are given a dictionary text file
 `src/main/resources/dictionary.txt` that contains valid words.
 
 In `MorseCode.java` a Map `morseDictionary` is already initialized and contains a mapping from each letter to the
 corresponding morse code sequence.
+
+## Staircase
+
+When climbing a staircase you can either take one step at a time or you could take multiple steps at a time. Given the
+number of steps in the staircase and your maximum step size compute the distinct number of ways you could climb the
+staircase.
+
+````java
+public class Staircase {
+    public static BigInteger waysToClimbStairs(int steps, int maxStepSize);
+}
+````
+
+**Example:** given a staircase of 5 steps and a maximum step size of 3 you could climb the staircase in 13 distinct
+ways:
+
+1. 11111
+2. 2111
+3. 1211
+4. 1121
+5. 1112
+6. 221
+7. 212
+8. 122
+9. 311
+10. 131
+11. 311
+12. 23
+13. 32
 
 ## DateUtil
 
@@ -60,6 +90,7 @@ Implement the methods in DateUtil:
 ````java
 interface DateUtil {
     boolean isWeekend(LocalDate date);
+
     LocalDate addBusinessDays(LocalDate from, int businessDays, Set<LocalDate> holidays);
 }
 ````
