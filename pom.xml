@@ -31,11 +31,17 @@
     </properties>
 
     <repositories>
-        <repository>
-            <id>mavenCentral</id>
-            <url>https://repo1.maven.org/maven2/</url>
-        </repository>
+      <repository>
+        <id>nexus</id>
+        <url>https://nexus.prod.zkb.ch/repository/public/</url>
+      </repository>
     </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>nexus</id>
+      <url>https://nexus.prod.zkb.ch/repository/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
 
     <build>
         <plugins>
