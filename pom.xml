@@ -14,14 +14,14 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <kotlin.code.style>official</kotlin.code.style>
-        <kotlin.compiler.jvmTarget>17</kotlin.compiler.jvmTarget>
+        <kotlin.compiler.jvmTarget>21</kotlin.compiler.jvmTarget>
 
         <!-- Library Versions -->
-        <version.kotlin>1.8.20</version.kotlin>
-        <version.kotlin-coroutines>1.6.4</version.kotlin-coroutines>
+        <version.kotlin>2.2.10</version.kotlin>
+        <version.kotlin-coroutines>1.10.2</version.kotlin-coroutines>
 
         <!-- Test Library Versions -->
-        <version.junit>5.9.2</version.junit>
+        <version.junit>5.13.4</version.junit>
 
         <!-- Plugin Versions -->
         <version.mavenCompilerPlugin>3.5</version.mavenCompilerPlugin>
